@@ -1,0 +1,17 @@
+.hero-mouse-reactive {
+  background: linear-gradient(to bottom, #243642, #387478);
+  color: white;
+  transition: background 0.5s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.hero-divider {
+  margin-top: -1px;
+  line-height: 0;
+}
+
+.mouse-title, .mouse-subtitle {
+  transition: transform 0.1s ease-out;
+}
