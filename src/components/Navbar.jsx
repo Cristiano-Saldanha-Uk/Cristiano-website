@@ -25,11 +25,17 @@ export default function Navbar() {
           Cristiano
         </Link>
 
-        <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false">
+        {/* Changed from <a> to <button> for accessibility */}
+        <button
+          className="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          style={{ background: 'none', border: 'none', cursor: 'pointer' }}
+        >
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </a>
+        </button>
       </div>
 
       <div className="navbar-menu">
