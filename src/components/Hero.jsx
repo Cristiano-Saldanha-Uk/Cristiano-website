@@ -40,7 +40,7 @@ export default function Hero() {
           {/* Resume Button */}
           <div style={{ marginTop: '2rem' }}>
             <a
-              href="/resume.pdf"
+              href="/Cristiano_CV_2026.pdf"
               download
               className="glass-card"
               style={{
