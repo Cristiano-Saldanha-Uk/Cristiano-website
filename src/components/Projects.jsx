@@ -4,17 +4,17 @@ const projects = [
   {
     title: 'Scalping Bot (Python + Alpaca)',
     description: 'Live-trading bot using Alpaca API, backtesting engine, and real-time data filters.',
-    link: 'https://github.com/cristianosaldanha/scalping-bot'
+    link: 'https://github.com/Cristiano-Saldanha-Uk/Scalping-Trading-Bot'
   },
   {
-    title: 'Meal Tracker (Java)',
-    description: 'Meal tracking and shopping list generator with database integration.',
-    link: 'https://github.com/cristianosaldanha/meal-tracker'
+    title: 'Python File Manager (Legacy)',
+    description: 'High school Python file manager project preserved as a learning artifact, showcasing early file handling and system operations skills.',
+    link: 'https://github.com/Cristiano-Saldanha-Uk/Python-File-Manager-Legacy'
   },
   {
-    title: 'Linux Scripting Toolkit',
-    description: 'Collection of Bash scripts and Linux utilities for automation.',
-    link: 'https://github.com/cristianosaldanha/linux-scripts'
+    title: 'Student Management System (Legacy)',
+    description: 'High school final project: a Python-based student management system with GUI and MySQL CRUD operations. Built using Python and released under the MIT License.',
+    link: 'https://github.com/Cristiano-Saldanha-Uk/Student-Management-System-Legacy'
   }
 ];
 
