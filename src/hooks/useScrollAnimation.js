@@ -12,8 +12,19 @@ export default function useScrollAnimation(threshold = 0.1) {
     }
   }, [controls, inView]);
 
+<<<<<<< HEAD
   return { ref, controls, variants: {
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
     hidden: { opacity: 0, y: 50 }
   }};
+=======
+  return { 
+    ref, 
+    controls, 
+    variants: {
+      visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+      hidden: { opacity: 0, y: 50 }
+    }
+  };
+>>>>>>> e0ada8ad1977a8283bc779ea003ea47232dbd327
 }
