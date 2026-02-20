@@ -9,17 +9,15 @@
     "framer-motion": "^10.18.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-<<<<<<< HEAD
+
     "react-intersection-observer": "^10.0.3",
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.9.3",
-    "web-vitals": "^5.1.0"
-=======
+    "web-vitals": "^5.1.0",
     "react-intersection-observer": "^9.16.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.3",
     "web-vitals": "^3.5.2"
->>>>>>> e0ada8ad1977a8283bc779ea003ea47232dbd327
   },
   "scripts": {
     "start": "react-scripts start",

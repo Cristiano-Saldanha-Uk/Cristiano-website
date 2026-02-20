@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 
 const projects = [
@@ -25,7 +25,6 @@ const projects = [
     color: '#204051',
   },
   {
-<<<<<<< HEAD
     title: 'AI Collision Detection System',
     description: 'AI system detecting altercations using bounding box collision logic. Uses computer vision and machine learning for real-time monitoring.',
     link: '#',
@@ -45,15 +44,14 @@ const projects = [
     link: '#',
     tech: ['React', 'Django', 'PostgreSQL', 'REST API'],
     color: '#204051',
-  }
-=======
+  },
+  {
     title: 'Cristiano Saldanha Portfolio Website',
     description: 'Personal portfolio website built with React to showcase projects, skills, and certifications. Features smooth scrolling, magnetic cursor effects, floating particles, animated gradients, and glass morphism design throughout.',
     link: 'https://github.com/Cristiano-Saldanha-Uk/Cristiano-website',
     tech: ['React', 'Bulma', 'Framer Motion', 'JavaScript'],
     color: '#84A9AC',
-    }
->>>>>>> e0ada8ad1977a8283bc779ea003ea47232dbd327
+  }
 ];
 
 export default function Projects() {
