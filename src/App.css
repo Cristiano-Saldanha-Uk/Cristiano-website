@@ -189,3 +189,31 @@ html {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Add to App.css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+}
+
+
+/* Simple grid system */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+
+.col {
+  flex: 1;
+  padding: 0 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}
