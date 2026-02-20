@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'animate.css';
-
+import 'bulma/css/bulma.min.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
