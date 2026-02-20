@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Cristiano Saldanha
+## Software Engineer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website showcasing professional experience, technical projects, and engineering capabilities. Built with React and deployed via Vercel.
 
-## Available Scripts
+**Live Demo**: [cristiano-website.vercel.app](https://cristiano-website.vercel.app)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Overview](#overview)
+- [Technology Stack](#technology-stack)
+- [Architecture](#architecture)
+- [Features](#features)
+- [Installation](#installation)
+- [Development](#development)
+- [Deployment](#deployment)
+- [Performance](#performance)
+- [Contact](#contact)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Overview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This portfolio serves as a technical demonstration of full-stack development abilities and a centralized platform for professional evaluation. The site emphasizes clean UI/UX, component-based architecture, and responsive design principles.
 
-### `npm run build`
+**Purpose**:
+- Demonstrate software engineering capabilities
+- Showcase technical projects and contributions
+- Provide professional contact information
+- Highlight certifications and skills
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technology Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Category | Technologies | Purpose |
+|----------|-------------|---------|
+| **Frontend** | React 18, JavaScript ES6+ | UI framework and core logic |
+| **Styling** | Bulma CSS, Custom CSS | Responsive design system |
+| **Navigation** | React Scroll | Smooth scroll implementation |
+| **Deployment** | Vercel | CI/CD and hosting |
+| **Version Control** | Git, GitHub | Source code management |
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Design Patterns**:
+- Component-based architecture
+- Props for data passing
+- State management for UI interactions
+- Modular CSS for styling isolation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Core Functionality
+| Feature | Implementation |
+|---------|---------------|
+| **Single Page Application** | React Router for seamless navigation |
+| **Smooth Scroll Navigation** | React Scroll for enhanced UX |
+| **Responsive Design** | Bulma grid system and media queries |
+| **Performance Optimization** | Code splitting and lazy loading |
 
-## Learn More
+### Professional Showcase
+- **Project Gallery**: Interactive display with technical specifications
+- **Skills Matrix**: Visual representation of technical proficiencies
+- **Certifications**: Verified credentials with issuing organizations
+- **Contact Integration**: Multiple professional communication channels
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Installation
 
-### Code Splitting
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn package manager
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Local Setup
 
-### Analyzing the Bundle Size
+```bash
+# Clone the repository
+git clone https://github.com/[username]/cristiano-website.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Navigate to project directory
+cd cristiano-website
 
-### Making a Progressive Web App
+# Install dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Start development server
+npm start
+```
+## Contact
+For professional inquiries or collaboration opportunities:
 
-### Advanced Configuration
+### Channel	Details
+Portfolio	cristiano-website.vercel.app
+GitHub	github.com/cristianosaldanha
+LinkedIn	linkedin.com/in/cristianosaldanha
+Email	cristiano.saldanha@email.com
+## License
+### Copyright © 2024 Cristiano Saldanha. All rights reserved.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is proprietary and confidential. Unauthorized copying, distribution, or use of this software is strictly prohibited.
