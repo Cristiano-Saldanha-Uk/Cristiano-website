@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-
+import './Hero.css'; 
 export default function Hero() {
   const heroRef = useRef(null);
   const titleRef = useRef(null);
